@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    uses: haobogu/rmk/.github/workflows/user_build.yml@main
+    uses: haobogu/rmk/.github/workflows/user_build.yml@rmk-v0.6.1
     with:
       keyboard_toml_path: "keyboard.toml"
       vial_json_path: "vial.json"
