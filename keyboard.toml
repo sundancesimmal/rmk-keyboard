@@ -17,7 +17,7 @@ keymap = [
     [
         ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", ],
         ["MT(A, LGui)", "MT(S, LAlt)", "MT(D, LCtrl)", "MT(F, LShift)", "G", "H", "MT(J, LShift)", "MT(K, LCtrl)", "MT(L, LAlt)", "MT(Semicolon, LGui)", ],
-        ["Z ", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", ],
+        ["Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", ],
         ["_", "_", "_", "Enter", "LT(1, Escape)", "LT(2, Space)", "Backspace", "_", "_", "_", ],
     ],
     [
