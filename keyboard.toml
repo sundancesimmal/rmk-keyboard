@@ -21,17 +21,26 @@ keymap = [
         ["_", "_", "_", "Enter", "LT(1, Escape)", "LT(2, Space)", "Backspace", "_", "_", "_", ],
     ],
     [
-        ["_", "_", "_", "_", "_", "_", "Home", "PageUp", "_", "_", ],
-        ["Kc0", "Kc1", "Kc2", "Kc3", "Kc4", "Left", "Down", "Up", "Right", "_", ],
-        ["Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "End", "PageDown", "_", "_", "_", ],
+        ["Quote", "Minus", "Equal", "LeftBracket", "RightBracket", "Home", "PageDown", "PageUp", "End", "_", ],
+        ["Kc0", "Kc1", "Kc2", "Kc3", "Kc4", "Left", "Down", "Up", "Right", "Backslash", ],
+        ["Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "_", "_", "_", "_", "Grave", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
     ],
     [
         ["_", "_", "_", "_", "_", "_", "Home", "PageUp", "_", "_", ],
         ["Kc0", "Kc1", "Kc2", "Kc3", "Kc4", "Left", "Down", "Up", "Right", "_", ],
-        ["Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "End", "PageDown", "_", "_", "_", ],
+        ["Bootloader", "Kc6", "Kc7", "Kc8", "Kc9", "End", "PageDown", "_", "_", "_", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
     ],
+]
+
+[behavior.combo]
+timeout = "250ms"
+combos = [
+  { actions = ["A", "S"], output = "Tab" },
+  { actions = ["Z", "X"], output = "Cut" },
+  { actions = ["X", "C"], output = "Copy" },
+  { actions = ["C", "V"], output = "Paste" }
 ]
 
 [storage]
